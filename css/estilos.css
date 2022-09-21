@@ -7,15 +7,6 @@
 	font-size:16.0pt;
 	font-family:"Arial",sans-serif;
 }
-.dadosPessoais{
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0.0pt;
-	line-height:115%;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-}
 .informacaoPessoal{
 	margin-top:0.5cm;
 	margin-right:0cm;
@@ -27,5 +18,5 @@
 	display: none;
 }
 .formacao{
-	
+	display: none;
 }
