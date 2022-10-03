@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset=UTF-8></head>
+<body lang=PT-BR link=blue vlink=red>
 <p>Universidade Tecnológica Federal do Paraná</p>
 <p>2013 - 2016, 4 Anos, Cargo: Monitor Bolsista - Disciplinas</p>
 <p>2016 Linguagem de Programação Orientada a Objetos Java</p>
@@ -15,22 +16,20 @@
 para o formato digital, navegação e consultas em aplicações Oracle, 
 planos/metodologias de teste de software; desenho de processos.</p>
 
-
-
-<p class=MsoNormal style='line-height:normal;border:none'><span
-style='font-size:12.0pt;color:black'>2010-2011 Associação Empresarial de
-Medianeira (ACIME Estágio Obrigatório) </span></p>
-
-<p class=MsoNormal style='line-height:normal;border:none'><span
-style='font-size:12.0pt;color:black'>Cargo: Técnico Informática </span></p>
-
-<p class=MsoNormal style='line-height:normal;border:none'><span
-style='font-size:12.0pt;color:black'>Principais atividades: Instalação e configuração
+<p>Associação Empresarial de Medianeira (ACIME)</p>
+<p>2010 - 2011, 1 Ano, Cargo: Estágio Técnico Informática</p>
+<p>Principais atividades: Instalação e configuração
 de sistemas operacionais; instalação de redes e equipamentos de informática; instalação
-e configuração de hardware e softwares; </span></p>
+e configuração de hardware e softwares</p>
 
 <p class=MsoNormal style='line-height:normal;border:none'><span
-style='font-size:12.0pt;color:black'>&nbsp;</span></p>
+style='font-size:12.0pt;color:black'>2010-2011  Estágio Obrigatório) </span></p>
+
+<p class=MsoNormal style='line-height:normal;border:none'><span
+style='font-size:12.0pt;color:black'>Cargo:  </span></p>
+
+<p class=MsoNormal style='line-height:normal;border:none'><span
+style='font-size:12.0pt;color:black'> </span></p>
 
 <p class=MsoNormal style='line-height:normal;border:none'><span
 style='font-size:12.0pt;color:black'>2009-2010 Prefeitura Municipal de
@@ -46,3 +45,5 @@ vencimento de produtos; conferencia de estoque). </span></p>
 
 <p class=MsoNormal style='line-height:normal;border:none'><span
 style='font-size:12.0pt;color:black'>&nbsp;</span></p>
+</body>
+</html>
