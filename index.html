@@ -38,6 +38,38 @@
 </div>
 </div>
 <script type="text/javascript">
+dvInformacaoPessoal = document.getElementById("dvInformacaoPessoal");
+dvFormacao = document.getElementById("dvFormacao");
+dvExperiencia = document.getElementById("dvExperiencia");
+dvCursos  = document.getElementById("dvCursos");
+escondeTudo();
+function escondeTudo(){
+	dvInformacaoPessoal.style.display = "none";
+	dvFormacao.style.display = "none";
+	dvExperiencia.style.display = "none";
+	dvCursos.style.display = "none";
+	
+}
+function funcaoDadosPessoais(){
+	escondeTudo();
+	dvInformacaoPessoal.style.display = "block";
+}
+function funcaoFormacao(){
+	escondeTudo();
+	dvFormacao.style.display = "block";
+}
+function funcaoExperiencia(){
+	escondeTudo();
+	dvExperiencia.style.display = "block";
+}
+function funcaoCursos(){
+	escondeTudo();
+	dvCursos.style.display = "block";
+}
+function funcaoProjetos(){
+	escondeTudo();
+}
+/*
 	function funcaoDadosPessoais(){
 		document.getElementById("dvInformacaoPessoal").style.display = "block";
 		document.getElementById("dvFormacao").style.display = "none";
@@ -68,6 +100,7 @@
 		document.getElementById("dvExperiencia").style.display = "none";
 		document.getElementById("dvCursos").style.display = "none";
 	}
+*/
 </script>
 </body>
 </html>
