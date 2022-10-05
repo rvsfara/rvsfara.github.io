@@ -1,106 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset=UTF-8>
-<title>Rafael Vieira dos Santos</title>
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<!-- <script src="botoes.js"></script> -->
-<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
-<link href="css/estilos.css" rel="stylesheet">
-</head>
-<body lang=PT-BR link=blue vlink=red>
-
-
-<div class=corpo>
-<img width=151 height=151 src="resumo_arquivos/image001.jpg" align=right hspace=0 vspace=0>
-<p class="nome">Rafael Vieira Dos Santos</p>
- <div class="menubar">
-  <a class="active" href="javascript:void(0)" onClick="javascript:funcaoDadosPessoais()">Dados Pessoais</a>
-  <a href="javascript:void(0)" onClick="javascript:funcaoFormacao()">Formação</a>
-  <a href="javascript:void(0)" onClick="javascript:funcaoExperiencia()">Experiência Profissional</a>
-  <a href="javascript:void(0)" onClick="javascript:funcaoCursos()">Cursos</a>
-  <a href="javascript:void(0)" onClick="javascript:funcaoProjetos()">Projetos</a>
-</div> 
-<div class="main" id="dvInformacaoPessoal">
-<iframe src="dadosPessoais.html"></iframe>
-</div>
-
-<div class="main" id="dvFormacao">
-<iframe src="formacao.html"></iframe>
-</div>
-
-<div class="main" id="dvExperiencia">
-<iframe src="experiencia.html"></iframe>
-</div>
-
-<div class="main" id="dvCursos">
-<iframe src="cursos.html"></iframe>
-</div>
-</div>
-<script type="text/javascript">
-dvInformacaoPessoal = document.getElementById("dvInformacaoPessoal");
-dvFormacao = document.getElementById("dvFormacao");
-dvExperiencia = document.getElementById("dvExperiencia");
-dvCursos  = document.getElementById("dvCursos");
-escondeTudo();
-function escondeTudo(){
-	dvInformacaoPessoal.style.display = "none";
-	dvFormacao.style.display = "none";
-	dvExperiencia.style.display = "none";
-	dvCursos.style.display = "none";
-	
-}
-function funcaoDadosPessoais(){
-	escondeTudo();
-	dvInformacaoPessoal.style.display = "block";
-}
-function funcaoFormacao(){
-	escondeTudo();
-	dvFormacao.style.display = "block";
-}
-function funcaoExperiencia(){
-	escondeTudo();
-	dvExperiencia.style.display = "block";
-}
-function funcaoCursos(){
-	escondeTudo();
-	dvCursos.style.display = "block";
-}
-function funcaoProjetos(){
-	escondeTudo();
-}
-/*
-	function funcaoDadosPessoais(){
-		document.getElementById("dvInformacaoPessoal").style.display = "block";
-		document.getElementById("dvFormacao").style.display = "none";
-		document.getElementById("dvExperiencia").style.display = "none";
-		document.getElementById("dvCursos").style.display = "none";
-	}
-	function funcaoFormacao(){
-		document.getElementById("dvInformacaoPessoal").style.display = "none";
-		document.getElementById("dvFormacao").style.display = "block";
-		document.getElementById("dvExperiencia").style.display = "none";
-		document.getElementById("dvCursos").style.display = "none";
-	}
-	function funcaoExperiencia(){
-		document.getElementById("dvInformacaoPessoal").style.display = "none";
-		document.getElementById("dvFormacao").style.display = "none";
-		document.getElementById("dvExperiencia").style.display = "block";
-		document.getElementById("dvCursos").style.display = "none";
-	}
-	function funcaoCursos(){
-		document.getElementById("dvInformacaoPessoal").style.display = "none";
-		document.getElementById("dvFormacao").style.display = "none";
-		document.getElementById("dvExperiencia").style.display = "none";
-		document.getElementById("dvCursos").style.display = "block";
-	}
-	function funcaoProjetos(){
-		document.getElementById("dvInformacaoPessoal").style.display = "none";
-		document.getElementById("dvFormacao").style.display = "none";
-		document.getElementById("dvExperiencia").style.display = "none";
-		document.getElementById("dvCursos").style.display = "none";
-	}
-*/
-</script>
-</body>
+	<head>
+		<meta charset=UTF-8>
+			<title>Rafael Vieira dos Santos</title>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+			<!-- chama o script para exibir as divs com o conteudo desejado o defer e para que o carregamento do script seja após a página
+			ser renderizada para que a referencia as divs não seja null -->
+			<script src="scripts/menuBar.js" defer></script>
+			<!-- Folha de estilos css-->
+			<link href="css/estilos.css" rel="stylesheet">
+	</head>
+	<body lang=PT-BR link=blue vlink=red>
+		<div class=corpo>
+			<img width=151 height=171 src="resumo_arquivos/image001.jpg" align=right hspace=0 vspace=0>
+			<p class="nome">Rafael Vieira Dos Santos</p>
+			<div class="menubar">
+				<a class="active" href="javascript:void(0)" onClick="javascript:funcaoDadosPessoais()">Dados Pessoais</a>
+				<a href="javascript:void(0)" onClick="javascript:funcaoFormacao()">Formação</a>
+				<a href="javascript:void(0)" onClick="javascript:funcaoExperiencia()">Experiência Profissional</a>
+				<a href="javascript:void(0)" onClick="javascript:funcaoCursos()">Cursos</a>
+				<a href="javascript:void(0)" onClick="javascript:funcaoProjetos()">Projetos</a>
+			</div> 
+			<div class="main" id="dvInformacaoPessoal">
+				<iframe src="pages/dadosPessoais.html"></iframe>
+			</div>
+			<div class="main" id="dvFormacao">
+				<iframe src="pages/formacao.html"></iframe>
+			</div>
+			<div class="main" id="dvExperiencia">
+				<iframe src="pages/experiencia.html"></iframe>
+			</div>
+			<div class="main" id="dvCursos">
+				<iframe src="pages/cursos.html"></iframe>
+			</div>
+		</div>
+	</body>
 </html>
