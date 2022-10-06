@@ -5,6 +5,8 @@ dvExperiencia = document.getElementById("dvExperiencia");
 dvCursos  = document.getElementById("dvCursos");
 //esconde todas as informações para que o usuário possa selecionar o que exibir
 escondeTudo();
+//exibir a página de cursos
+funcaoCursos();
 //função para ocultar a visualização facilitando a visualização
 function escondeTudo(){
 	dvInformacaoPessoal.style.display = "none";
