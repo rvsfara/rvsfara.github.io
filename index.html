@@ -12,14 +12,17 @@
 	</head>
 	<body lang=PT-BR link=blue vlink=red>
 		<div class=corpo>
-			<img width=151 height=171 src="resumo_arquivos/image001.jpg" align=right hspace=0 vspace=0>
+			<div class="main" id="dvImgPerfil">
+				<img width=151 height=171 src="resumo_arquivos/image001.jpg" align=right hspace=0 vspace=0>
+			</div>
 			<p class="nome">Rafael Vieira Dos Santos</p>
 			<div class="menubar">
 				<a class="active" href="javascript:void(0)" onClick="javascript:funcaoDadosPessoais()">Dados Pessoais</a>
 				<a href="javascript:void(0)" onClick="javascript:funcaoFormacao()">Formação</a>
 				<a href="javascript:void(0)" onClick="javascript:funcaoExperiencia()">Experiência Profissional</a>
 				<a href="javascript:void(0)" onClick="javascript:funcaoCursos()">Cursos</a>
-				<a href="javascript:void(0)" onClick="javascript:funcaoProjetos()">Projetos</a>
+				<!-- <a href="javascript:void(0)" onClick="javascript:funcaoProjetos()">Projetos</a> -->
+				<a href="javascript:void(0)" onClick="javascript:funcaoLinhaTempo()">Linha do Tempo</a>
 			</div> 
 			<div class="main" id="dvInformacaoPessoal">
 				<iframe src="pages/dadosPessoais.html"></iframe>
@@ -32,6 +35,9 @@
 			</div>
 			<div class="main" id="dvCursos">
 				<iframe src="pages/cursos.html"></iframe>
+			</div>
+			<div class="main" id="dvLinha">
+				<iframe src="pages/linhadotempo.html"></iframe>
 			</div>
 		</div>
 	</body>
